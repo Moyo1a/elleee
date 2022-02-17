@@ -1,0 +1,61 @@
+body{
+    background-color: lavender;
+    padding: 50px;
+}
+h2{
+    font-size: 38px;
+    text-align: center;
+}
+input{
+    height: 40px;
+    width: 40%;
+    margin-left: 30%;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: transparent;
+    border-width: none;
+    outline: none;
+    text-align: center;
+    font-size: 25px;
+}
+.current{
+    font-size: 40px;
+    width: 40%;
+    /* background-color: red; */
+    margin-left: 30%;
+    position: relative;
+}
+.current span{
+    position: absolute;
+    right: 0;
+}
+.message{
+    font-size: 16px;
+    font-weight: 700;
+    font-style: italic;
+    text-align: center;
+    margin-top: 10px;
+}
+.speed{
+    margin-top: 20px;
+}
+button{
+    border-radius: 20px;
+    border-style: solid;
+    border-color: transparent;
+    border-width: none;
+    display: block;
+    font-size: 40px;
+    width: 40%;
+    height: 40px;
+    cursor: pointer;
+    /* background-color: red; */
+    margin-left: 30%;
+    position: relative;
+    margin-top: 20px;
+    
+}
+button:active{
+    opacity: 0;
+}
+
